@@ -2,9 +2,8 @@
 # shoplite-app's promote workflow, then synced by hand in ArgoCD. Empty until the first
 # promotion: the chart then stops with "image.tag is required".
 image:
-  registry: ""
-  tag: ""
-
+  registry: "041793356414.dkr.ecr.ap-southeast-1.amazonaws.com"
+  tag: "6025631"
 # Fault injection of question 1.5, all off. In the Q8 exercise a peer turns exactly one on
 # here, with an innocuous commit message, and the RCA starts from the observability tools.
 config:
