@@ -3,5 +3,5 @@
 # Git SHA). ArgoCD then syncs dev on its own. Empty until the first CI run: the chart then
 # stops with "image.tag is required" instead of starting pods without images.
 image:
-  registry: ""
-  tag: ""
+  registry: "041793356414.dkr.ecr.ap-southeast-1.amazonaws.com"
+  tag: "6025631"
